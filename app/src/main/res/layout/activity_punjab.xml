@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".punjab"
+    android:background="@drawable/bg4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thapar Institute Of Engineering And Technology"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/tiet"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guru Nanak Dev Engineering College"
+        android:layout_marginTop="90dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/gn"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IK Gujral Punjab Technical University"
+        android:layout_marginTop="160dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/gujral"
+        />
+
+</RelativeLayout>

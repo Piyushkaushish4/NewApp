@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chandigarh"
+    android:background="@drawable/bg4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="University Institute Of Engineering And Technology(PU)"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/pu"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chandigarh College Of Engineering And Technology"
+        android:layout_marginTop="90dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/cgc"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="University Institute Of Engineering And Technology(Hoshiarpur)"
+        android:layout_marginTop="160dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/hosh"
+        />
+
+</RelativeLayout>

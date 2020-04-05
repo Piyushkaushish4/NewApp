@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".chdcl"></activity>
+        <activity android:name=".chdcollpredict" />
+        <activity android:name=".josaa" />
+        <activity android:name=".afterhimachal" />
+        <activity android:name=".afterchandigarh" />
+        <activity android:name=".afterpunjab" />
+        <activity android:name=".afterharyana" />
+        <activity android:name=".hosh" />
+        <activity android:name=".cgc" />
+        <activity android:name=".pu" />
+        <activity android:name=".jl" />
+        <activity android:name=".shimla" />
+        <activity android:name=".gujral" />
+        <activity android:name=".gn" />
+        <activity android:name=".tiet" />
+        <activity android:name=".siet" />
+        <activity android:name=".mdu" />
+        <activity android:name=".gj" />
+        <activity android:name=".kuk" />
+        <activity android:name=".ymca" />
+        <activity android:name=".deen" />
+        <activity android:name=".himachal" />
+        <activity android:name=".chandigarh" />
+        <activity android:name=".counselpage" />
+        <activity android:name=".punjab" />
+        <activity android:name=".haryana" />
+        <activity android:name=".forgotpass" />
+        <activity android:name=".secondpage" />
+        <activity android:name=".registers" />
+        <activity android:name=".logings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

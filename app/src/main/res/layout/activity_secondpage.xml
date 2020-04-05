@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".secondpage"
+    android:background="@drawable/him">
+
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/haryana"
+    android:id="@+id/bthar"
+    />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/punjab"
+        android:layout_marginLeft="200dp"
+        android:id="@+id/btpun"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chandigarh"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="25dp"
+        android:id="@+id/btchd"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/himachal"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="200dp"
+        android:id="@+id/bthim"/>
+
+</RelativeLayout>

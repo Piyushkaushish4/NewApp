@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".haryana"
+    android:background="@drawable/bg4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="J.C.Bose University Of Science And Technology"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/ymca"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deenbandhu Chottu Ram University Of Science and Technology"
+        android:layout_marginTop="90dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/deenba"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="University Institute Of Engineering And Technology(KUK)"
+        android:layout_marginTop="160dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/kuk"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guru Jambheshwar University Of Science And Technology"
+        android:layout_marginTop="230dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/gj"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="University Institute Of Engineering And Technology(MDU)"
+        android:layout_marginTop="300dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/mdu"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="State institute of engineering and technology(Nilokheri)"
+        android:layout_marginTop="360dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/siet"
+        />
+
+
+</RelativeLayout>
